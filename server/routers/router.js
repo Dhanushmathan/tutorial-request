@@ -1,7 +1,6 @@
 import express from 'express';
 import { createTutorialRequest, deleteRequestData, updateRequestData } from '../services/tutorialRequest.service.js';
 import { getAllRequestData } from '../services/tutorialRequest.service.js';
-import { deleteModel } from 'mongoose';
 
 const router = express.Router();
 

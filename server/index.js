@@ -1,5 +1,5 @@
 import express from 'express';
-import rootRouter from './routers/main.js';
+import rootRouter from './routers/router.js';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
@@ -11,9 +11,7 @@ server.use(express.json());
 server.use(rootRouter);
 
 rootRouter.get('*', (req, res) => {
-    return res.json({
-        message: "Page is not found!"
-    })
+    return res.status(404);
 })
 
 server.listen(SERVER_PORT, () => {

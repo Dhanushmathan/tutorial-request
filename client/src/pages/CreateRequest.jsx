@@ -16,7 +16,7 @@ const CreateRequest = () => {
 
     const sendToServer = async (data) => {
         // All data will be validation
-        const response = await fetch("http://localhost:8888/create", {
+        const response = await fetch("https://tutorial-request-app-aqa7.onrender.com/create", {
             method: "POST", headers: {
                 "Accept": "application/json",
                 "Content-Type": "application/json",

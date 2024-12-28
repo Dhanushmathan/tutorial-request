@@ -6,7 +6,7 @@ const App = () => {
 
   async function fetchRequest() {
     const requestAPIData = await fetch(
-      "http://localhost:8888/requests"
+      "http://localhost:8888/requests", { method: 'GET' }
     );
     const data = await requestAPIData.json();
     setRequestData(data);

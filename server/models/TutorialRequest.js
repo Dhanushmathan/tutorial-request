@@ -17,7 +17,7 @@ const tutRequest = new Schema({
     desc: {
         type: String,
         requried: true,
-        minLength: 100,
+        minLength: 50,
         maxLength: 2000,
     },
     creater_at: {

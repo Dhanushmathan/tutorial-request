@@ -13,5 +13,8 @@ Simple app to track your tutorials request.
  - ExpressJS powered by Node
 
 
+## License: MIT
+
+
 ## Authors:
  - [Dhanushmathan](https://www.linkedin.com/in/dhanushmathan2394/)
